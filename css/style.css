@@ -1,0 +1,38 @@
+/* COLORS
+Jumbotron bg: #b4d0e7
+Buttons: #0061ff
+Lightgreen: #a2d39b
+Burgundy: #61082b
+Blue-bottomleft: #0093ce
+Red-bottomright: #ff1c1c
+Red-topright: #d5001f
+Light-blue: #b4d0e7
+Blue-bottomright: #0d2481
+Yellow: #ffd830
+*/
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
