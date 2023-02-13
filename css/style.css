@@ -27,7 +27,7 @@ img:not(.jmbt-img) {
     max-width: 100%;
 }
 
-a {
+a:not(.clienti-link) {
     text-decoration: none;
     color: inherit;
 }
@@ -54,6 +54,10 @@ h3 {
 /* UTILITIES */
 .flex {
     display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .gap {
@@ -160,15 +164,15 @@ h3 {
 .main {
     padding: 150px 0 100px 0;
     /* debug */
-    height: 2000px;
-    background-color: yellowgreen;
+    height: 5000px;
+    /* background-color: yellowgreen; */
 }
 
 /* Section Plans */
 /* plan grid */
 .section-plans {
-    width: 100%;
-    margin: 70px 0;
+    /* width: 100%; */
+    /* margin: 70px 0; */
     /*debug  */
     height: 1000px;
     background-color: grey;
@@ -180,10 +184,6 @@ h3 {
     /* debug */
     background-color: lightcoral;
     height: 700px;
-}
-
-.plan-row {
-    flex-wrap: wrap;
 }
 
 .plan-col {
@@ -222,8 +222,8 @@ h3 {
 
 /* Section Partner */
 .section-partner {
-    width: 100%;
-    margin: 70px 0;
+    /* width: 100%; */
+    /* margin: 70px 0; */
     /* debug */
     height: 540px;
     background-color: white;
@@ -245,10 +245,10 @@ h3 {
 
 /* Section Operations */
 .section-operations {
-    width: 100%;
-    margin: 70px 0;
+    /* width: 100%; */
+    /* margin: 70px 0; */
     /* debug */
-    height: 1500px;
+    height: 1000px;
     background-color: goldenrod;
 }
 
@@ -261,8 +261,8 @@ h3 {
 }
 
 .op-row {
-    flex-wrap: wrap;
     /* debug */
+    height: 500px;
 }
 
 .op-col {
@@ -278,4 +278,32 @@ h3 {
     /* debug */
     height: 100%;
     background-color: lightgoldenrodyellow;
+}
+
+/* Section Logos */
+.section-logos {
+    /* debug */
+    height: 800px;
+    background-color: pink;
+}
+
+/* logos container */
+.logos-container {
+    margin-top: 100px;
+    width: 100%;
+    /* debug */
+    height: 700px;
+    background-color: lightslategrey;
+}
+
+.square {
+    width: calc(100% / 3);
+    height: 700px;
+    border: 1px solid black;
+}
+
+.inner-square {
+    width: 50%;
+    height: 50%;
+    border: 1px solid yellow;
 }
