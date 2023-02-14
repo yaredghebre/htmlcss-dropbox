@@ -211,8 +211,6 @@ h3 {
 .plan-grid {
     width: 100%;
     margin: 50px 0;
-    /* debug */
-    height: 1500px;
 }
 
 .grid-hr {
@@ -247,15 +245,14 @@ h3 {
 
 .plan-col-bottom {
     width: 100%;
+    margin: 40px 0;
     line-height: 30px;
     text-align: left;
 }
 
 /* Section Partner */
 .section-partner {
-    /* debug */
-    height: 540px;
-    background-color: white;
+    margin: 100px auto;
 }
 
 .partner-img-container {
@@ -276,9 +273,9 @@ h3 {
 
 /* Section Operations */
 .section-operations {
+    margin: 100px auto;
     /* debug */
     height: 1000px;
-    background-color: goldenrod;
 }
 
 /* operations grid */
