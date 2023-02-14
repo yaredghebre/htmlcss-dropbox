@@ -52,6 +52,10 @@ h3 {
 }
 
 /* UTILITIES */
+.section {
+    margin: 50px auto;
+}
+
 .flex {
     display: flex;
 }
@@ -132,7 +136,6 @@ h3 {
 .jumbotron-bottom {
     width: 60%;
     margin: 50px auto;
-    display: flex;
 }
 
 .jumbotron-paragraph {
@@ -165,14 +168,11 @@ h3 {
     padding: 150px 0 100px 0;
     /* debug */
     height: 5000px;
-    /* background-color: yellowgreen; */
 }
 
 /* Section Plans */
 /* plan grid */
 .section-plans {
-    /* width: 100%; */
-    /* margin: 70px 0; */
     /*debug  */
     height: 1000px;
     background-color: grey;
@@ -280,10 +280,8 @@ h3 {
 
 /* logos container */
 .logos-container {
-    margin-top: 100px;
     width: 100%;
     /* debug */
-    height: 700px;
     background-color: lightslategrey;
 }
 
@@ -308,12 +306,33 @@ h3 {
     height: 300px;
 }
 
-.business-invite h2{
+.cta-container {
+    line-height: 300px;
+    /* debug */
+}
+
+.cta-container h2{
     color: #61082b;
 }
 
-.business-invite {
-    width: 100%;
-    line-height: 300px;
+/* FAQs */
+.section-faqs {
+    padding: 30px 0;
+    /* debug */
+    background-color: beige;
+    height: 700px;
 }
 
+.faqs-container{
+    line-height: 100px;
+    font-weight: 700;
+}
+
+.arrow {
+    margin-right: 50px;
+}
+
+.faqs-container a:hover {
+    /* debug */
+    /* font-size: 3rem; */
+}
