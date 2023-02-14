@@ -23,18 +23,18 @@
             <div class="head-nav-left gap flex align-items-center">
                 <img src="img/logo-small.png" alt="Header Logo">
                 <ul class="flex gap">
-                    <li><div class="header-fx"><a href="">Perchè Dropbox</a></div></li>
-                    <li><div class="header-fx"><a href="">Funzioni</a></div></li>
-                    <li><div class="header-fx"><a href="">Piani e Prezzi</a></div></li>
+                    <li><a class="border-fx align-items-center" href="">Perchè Dropbox</a></li>
+                    <li><a class="border-fx align-items-center" href="">Funzioni</a></li>
+                    <li><a class="border-fx align-items-center" href="">Piani e Prezzi</a></li>
                 </ul>
             </div>
             <!-- right -->
             <div class="head-nav-right gap flex align-items-center">
                 <ul class="flex gap">
-                    <li><div class="header-fx"><a href="">Supporto</a></div></li>
-                    <li><div class="header-fx"><a href="">Contatta l'ufficio vendite</a></div></li>
-                    <li><div class="header-fx"><a href="">Accedi</a></div></li>
-                    <li><a class="button btn-blue" href="">Inizia</a></li>
+                    <li><a class="border-fx align-items-center" href="">Supporto</a></li>
+                    <li><a class="border-fx align-items-center" href="">Contatta l'ufficio vendite</a></li>
+                    <li><a class="border-fx align-items-center" href="">Accedi</a></li>
+                    <li><a class="btn-blue button" href="">Inizia</a></li>
                 </ul>
             </div>
         </nav>
@@ -47,10 +47,10 @@
             </div>
             <div class="jumbotron-bottom flex">
                 <div class="jumbotron-paragraph">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perspiciatis repellendus! Aliquam necessitatibus nulla consectetur repudiandae culpa facere eius fugit beatae magnam, repellat nam iure laborum praesentium doloribus velit ipsam!</p>
+                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessbili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente</p>
                     <div class="jmbt-button button btn-blue"><a href="">Inizia la tua prova gratuita</a></div>
                     <p>Annulla in qualsiasi momento</p>
-                    <div class="jmbt-arrow"><a href=""><i class="fa-regular fa-arrow-down-long"></i></a></div>
+                    <div class="jmbt-arrow"><a href=""><i class="fa-solid fa-arrow-down"></i></a></div>
                 </div>
 
                 <!-- image -->
@@ -67,36 +67,99 @@
         <!-- Section Plans -->
         <section class="section-plans container section">
             <h2>Trova il piano business che fa per te</h2>
-            <ul class="flex gap">
-                <li>Fatturazione mensile</li>
-                <li>Fatturazione annuale</li>
-            </ul>
+            <div class="billing flex justify-content-between">
+                <div class="bullet-blue"></div>Fatturazione mensile
+                <div class="bullet"></div>Fatturazione annuale
+            </div>
 
             <!--plans grid -->
             <div class="plan-grid flex">
                 <div class="plan-row flex justify-content-between wrap">
                     <div class="plan-col">
                         <div class="plan-card">
-                            <div class="plan-card-title">Singolo</div>
-                            <div class="plan-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore error, odio maiores non facere velit porro sequi quia sapiente necessitatibus numquam voluptatum! Nemo debitis quae voluptatem enim deleniti distinctio et.</div>
+                            <div class="plan-card-title"><i class="fa-solid fa-user"></i> Singolo</div>
+                            <div class="plan-card-text">
+                                <h3>Professional</h3>
+                                <h4>€ 12.00</h4>
+                                <span>/mese</span>
+                                <br>
+                                <ul>
+                                   <li><i class="fa-solid fa-user"></i> 1 utente</li>
+                                   <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li> 
+                                   <li><i class="fa-sharp fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li> 
+                                </ul>
+                                <div class="button btn-blue">Prova gratis per 30 giorni</div>
+                                <p>oppure <a href="">acquista ora</a></p>
+                                <hr class="grid-hr">
+                                <h5>Punti Salienti del piano</h5>
+                                <ul>
+                                    <li>&check; Invia file fino a 100 GB con Dropbox Transfert</li>
+                                    <li>&check; Cartelle offline su dispositivi mobili</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="plan-col">
                         <div class="plan-card">
-                            <div class="plan-card-title">Singolo</div>
-                            <div class="plan-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore error, odio maiores non facere velit porro sequi quia sapiente necessitatibus numquam voluptatum! Nemo debitis quae voluptatem enim deleniti distinctio et.</div>
+                            <div class="plan-card-title"><i class="fa-solid fa-people-group"></i> Team</div>
+                            <div class="plan-card-text">
+                                <h3>Advanced</h3>
+                                <h4>€ 18.00</h4>
+                                <span>/utente/mese</span>
+                                <br>
+                                <ul>
+                                   <li><i class="fa-solid fa-user"></i> 3 o più utenti</li>
+                                   <li><i class="fa-solid fa-people-group"></i> Tutto lo spazio di cui ha bisogno il tuo team</li> 
+                                   <li><i class="fa-sharp fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li> 
+                                </ul>
+                                <div class="button btn-blue">Prova gratis per 30 giorni</div>
+                                <p>oppure <a href="">acquista ora</a></p>
+                                <hr class="grid-hr">
+                                <h5>Punti Salienti del piano</h5>
+                                <ul>
+                                    <li>&check; Nessun limite di spazio per i file</li>
+                                    <li>&check; Cartelle offline su dispositivi mobili</li>
+                                    <li>&check; Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                    <li>&check; Possibilità di inserire nuovi membri del team</li>
+                                    <li>&check; Gestione dei permessi in base ai ruoli</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="plan-col">
                         <div class="plan-card">
-                            <div class="plan-card-title">Singolo</div>
-                            <div class="plan-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore error, odio maiores non facere velit porro sequi quia sapiente necessitatibus numquam voluptatum! Nemo debitis quae voluptatem enim deleniti distinctio et.</div>
+                            <div class="plan-card-title"><i class="fa-sharp fa-solid fa-building"></i> Azienda</div>
+                            <div class="plan-card-text">
+                                <h3>Enterprise</h3>
+                                <h4>Contattaci</h4>
+                                <span>-</span>
+                                <br>
+                                <ul>
+                                   <li><i class="fa-solid fa-user"></i> 10 o più utenti</li>
+                                   <li><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li> 
+                                   <li><i class="fa-sharp fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li> 
+                                </ul>
+                                <div class="button btn-blue">Contattaci</div>
+                                <p>oppure <a href="">acquista ora</a></p>
+                                <hr class="grid-hr">
+                                <h5>Punti Salienti del piano</h5>
+                                <ul>
+                                    <li>&check; Cartelle offline su dispositivi mobili</li>
+                                    <li>&check; Servizio assistenza 24/h</li>
+                                    <li>&check; Possibilità di personalizzazione totale</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="plan-col-bottom">
                         <div class="plan-card">
-                            <div class="plan-card-title">Singolo</div>
-                            <div class="plan-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore error, odio maiores non facere velit porro sequi quia sapiente necessitatibus numquam voluptatum! Nemo debitis quae voluptatem enim deleniti distinctio et.</div>
+                            <div class="plan-card-title"><i class="fa-solid fa-people-group"></i> Team</div>
+                            <div class="plan-card-text">
+                                <h3>Enterprise</h3>
+                                <h4>Contatta l'ufficio vendite per i prezzi</h4>
+                                <div class="button btn-blue">Contattaci</div>
+                                <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                            </div>
                         </div>
                     </div>
 

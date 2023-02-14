@@ -82,8 +82,9 @@ h3 {
 
 .button {
     max-width: 230px;
-    max-height: 100px;
-    padding: 10px 15px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
 }
 
 .btn-blue {
@@ -95,10 +96,12 @@ h3 {
     background-color: white;
     padding: 10px 30px;
 }
+
 .container {
     width: 55%;
     margin: 0 auto;
 }
+
 
 /* HEADER */
 /* Header Nav */
@@ -114,26 +117,18 @@ h3 {
     z-index: 100;
 }
 
-.head-nav-right li:nth-child(2) {
-    /* width: 180px;
-    height: 100px;
-    display: inline; */
-}
-
-.header-fx {
-    height: 100px;
-    text-align: center;
+.border-fx {
+    padding: 36px 0;
     line-height: 100px;
-    max-width: 150px;
     border-bottom: 3px solid transparent;
 }
-
-.header-fx:hover {
-    border-bottom: 3px solid black;
+.border-fx:hover {
+    border-bottom-color: black;
 }
 
 .head-nav-right li:last-child {
     color: white;
+    line-height: 100px;
 }
 
 /* Jumbotron */
@@ -161,11 +156,12 @@ h3 {
 }
 
 .jmbt-button {
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .jmbt-arrow {
     margin: 30px 0;
+    font-size: 3rem;
 }
 
 .jumbotron-image {
@@ -190,44 +186,73 @@ h3 {
 /* Section Plans */
 /* plan grid */
 .section-plans {
-    /*debug  */
-    height: 1000px;
-    background-color: grey;
+    
 }
 
+.billing {
+    width: 40%;
+    height: 50px;
+}
+
+.bullet {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+.bullet-blue {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid blue;
+}
+
+/* grid */
 .plan-grid {
     width: 100%;
     margin: 50px 0;
     /* debug */
-    background-color: lightcoral;
-    height: 700px;
+    /* background-color: ; */
+    height: 1500px;
+}
+
+.grid-hr {
+    width: 40px;
+    margin: 30px 0;
 }
 
 .plan-col {
     width: calc(100% / 3 - 30px);
-    line-height: 50px;
+    /* margin-bottom: 0px; */
+    line-height: 40px;
     /* debug */
-    height: 350px;
-    background-color: lightblue;
+    /* height: 350px; */
+    /* background-color: lightblue; */
 }
 
 .plan-card-title {
     padding: 0 10px;
-    border: 1px solid black;
+    line-height: 50px;
+    border: 1px solid lightgrey;
     text-align: center;
 }
 
 .plan-card-text {
-    padding: 0 15px;
+    padding: 30px;
     text-align: left;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+}
+
+.plan-card-text a {
+    text-decoration: underline;
+    color: blue;
 }
 
 .plan-col-bottom {
     width: 100%;
-    line-height: 50px;
+    line-height: 30px;
     text-align: left;
 }
 
