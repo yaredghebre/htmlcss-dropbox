@@ -102,6 +102,9 @@ h3 {
     margin: 0 auto;
 }
 
+.margin-30 {
+    margin: 30px 0;
+}
 
 /* HEADER */
 /* Header Nav */
@@ -122,6 +125,7 @@ h3 {
     line-height: 100px;
     border-bottom: 3px solid transparent;
 }
+
 .border-fx:hover {
     border-bottom-color: black;
 }
@@ -185,10 +189,6 @@ h3 {
 
 /* Section Plans */
 /* plan grid */
-.section-plans {
-    
-}
-
 .billing {
     width: 40%;
     height: 50px;
@@ -212,7 +212,6 @@ h3 {
     width: 100%;
     margin: 50px 0;
     /* debug */
-    /* background-color: ; */
     height: 1500px;
 }
 
@@ -223,11 +222,7 @@ h3 {
 
 .plan-col {
     width: calc(100% / 3 - 30px);
-    /* margin-bottom: 0px; */
     line-height: 40px;
-    /* debug */
-    /* height: 350px; */
-    /* background-color: lightblue; */
 }
 
 .plan-card-title {
