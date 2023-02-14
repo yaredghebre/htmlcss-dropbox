@@ -107,25 +107,42 @@ h3 {
     height: 100px;
     justify-content: space-between;
     padding: 0 10px;
-    /* debug */
-    background-color: lightpink;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
-.head-nav-left ul {
-    gap: 30px;
+.head-nav-right li:nth-child(2) {
+    /* width: 180px;
+    height: 100px;
+    display: inline; */
 }
 
-.head-nav-right ul {
-    gap: 30px;
+.header-fx {
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    max-width: 150px;
+    border-bottom: 3px solid transparent;
+}
+
+.header-fx:hover {
+    border-bottom: 3px solid black;
+}
+
+.head-nav-right li:last-child {
+    color: white;
 }
 
 /* Jumbotron */
 .jumbotron-bg {
     width: 100%;
     background-color: #b4d0e7;
-    padding-top: 100px;
+    padding-top: 200px;
     /* debug */
-    height: 700px
+    height: 800px;
 }
 
 .jumbotron-top {
