@@ -373,14 +373,9 @@ h3 {
 
 /* company promotions */
 .call-to-action {
+    padding: 100px 0;
+    margin-bottom: 100px;
     background-color: #b4d0e7;
-    /* debug */
-    height: 300px;
-}
-
-.cta-container {
-    /* line-height: 300px; */
-    /* debug */
 }
 
 .cta-container h2{
@@ -389,10 +384,7 @@ h3 {
 
 /* FAQs */
 .section-faqs {
-    /* padding: 30px 0; */
-    /* debug */
-    background-color: beige;
-    height: 600px;
+    
 }
 
 .faqs-container{
@@ -400,13 +392,17 @@ h3 {
     font-weight: 700;
 }
 
-.arrow {
+.arrow-a , .arrow-b , .arrow-c {
     margin-right: 50px;
 }
 
-.faqs-container a:hover {
-    /* debug */
-    /* font-size: 3rem; */
+.lorem-hover {
+    /* font-weight: 400; */
+    display: none;
+}
+
+.arrow-a , .arrow-b , .arrow-c:hover .lorem-hover {
+    display: block;
 }
 
 /* FOOTER */
