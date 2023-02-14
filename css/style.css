@@ -205,7 +205,7 @@ h3 {
 .main {
     padding: 150px 0 100px 0;
     /* debug */
-    height: 5000px;
+    height: 6000px;
 }
 
 /* Section Plans */
@@ -312,6 +312,10 @@ h3 {
 }
 
 /* Section Logos */
+.section-logos {
+    margin-bottom: 0;
+}
+
 /* logos container */
 .logos-container {
     margin-top: 120px;
@@ -329,7 +333,6 @@ h3 {
 }
 
 .logos-cont-center {
-    font-size: 1.2rem;
     background-color: #f5f5f5;
     padding: 50px;
 }
@@ -376,7 +379,7 @@ h3 {
 }
 
 .cta-container {
-    line-height: 300px;
+    /* line-height: 300px; */
     /* debug */
 }
 
@@ -386,7 +389,7 @@ h3 {
 
 /* FAQs */
 .section-faqs {
-    padding: 30px 0;
+    /* padding: 30px 0; */
     /* debug */
     background-color: beige;
     height: 600px;
