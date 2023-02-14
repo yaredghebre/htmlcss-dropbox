@@ -274,35 +274,20 @@ h3 {
 /* Section Operations */
 .section-operations {
     margin: 100px auto;
-    /* debug */
-    height: 1000px;
 }
 
 /* operations grid */
 .op-grid {
     width: 100%;
-    /* debug */
-    background-color: beige;
-}
-
-.op-row {
-    /* debug */
-    height: 500px;
 }
 
 .op-col {
     width: calc(100% / 3);
-    border: 1px solid black;
-    padding: 10px;
-    /* debug */
-    background-color: green;
-    height: 300px;
+    padding: 40px;
 }
 
 .op-card {
-    /* debug */
     height: 100%;
-    background-color: lightgoldenrodyellow;
 }
 
 /* Section Logos */
