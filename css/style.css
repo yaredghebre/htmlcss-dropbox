@@ -80,11 +80,19 @@ h3 {
     align-items: center;
 }
 
+.header-logo {
+    vertical-align: middle;
+}
+
 .button {
     max-width: 230px;
     height: 50px;
     line-height: 50px;
     text-align: center;
+}
+
+.btn-start {
+    padding: 10px 20px;
 }
 
 .btn-blue {
@@ -136,6 +144,7 @@ h3 {
 .logos-hr {
     width: 200px;
 }
+
 /* HEADER */
 /* Header Nav */
 .header-nav {
