@@ -365,12 +365,11 @@ h3 {
 
 .square {
     width: calc(100% / 3);
-    height: 700px;
+    height: 600px;
 }
 
 .inner-square {
     width: 50%;
-    height: 50%;
 }
 
 .logos-cont-center {
@@ -411,6 +410,10 @@ h3 {
 
 .clear-channel {
     background-color: #ffd830;
+}
+
+#cc-logo {
+    width: 100%;
 }
 
 /* company promotions */
