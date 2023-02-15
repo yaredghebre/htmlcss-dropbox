@@ -50,6 +50,10 @@ h3 {
     font-size: 1.7rem;
     margin-bottom: 20px;
 }
+ h5 {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+ }
 
 /* UTILITIES */
 .section {
@@ -114,6 +118,9 @@ h3 {
     padding: 10px 30px;
 }
 
+.blue {
+    color: blue;
+}
 .container {
     width: 55%;
     margin: 0 auto;
@@ -121,6 +128,10 @@ h3 {
 
 .margin-30 {
     margin: 30px 0;
+}
+
+.padding-20 {
+    padding: 0 20px;
 }
 
 .relative {
@@ -222,14 +233,12 @@ h3 {
 /* MAIN */
 .main {
     padding: 150px 0 100px 0;
-    /* debug */
-    /* height: 6000px; */
 }
 
 /* Section Plans */
 /* plan grid */
 .billing {
-    width: 40%;
+    width: 33%;
     height: 50px;
 }
 
@@ -244,6 +253,10 @@ h3 {
     height: 20px;
     border-radius: 50%;
     border: 5px solid blue;
+}
+
+.billing-option {
+    margin-left: -50px;
 }
 
 /* grid */
@@ -272,9 +285,30 @@ h3 {
 .plan-card-text {
     padding: 30px;
     text-align: left;
+}
+
+.period {
+    font-weight: 400;
+    color: grey;
+    margin-bottom: 50px;
+}
+
+.plan-card li {
+    position: relative;
+    padding-left: 30px;
+}
+
+.plan-card li i {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.plan-card {
     border-right: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
     border-left: 1px solid lightgrey;
+    height: 100%;
 }
 
 .plan-card-text .buy-now {
@@ -286,7 +320,6 @@ h3 {
     width: 100%;
     margin: 40px 0;
     line-height: 30px;
-    text-align: left;
 }
 
 /* Section Partner */
@@ -457,7 +490,6 @@ footer {
 /* language */
 .language-box {
     gap: 10px;
-    /* padding: 10px; */
     width: 150px;
     height: 150px;
     border-top: 1px solid white;

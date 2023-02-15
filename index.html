@@ -68,8 +68,8 @@
         <section class="section-plans container section">
             <h2>Trova il piano business che fa per te</h2>
             <div class="billing flex justify-content-between">
-                <div class="bullet-blue"></div>Fatturazione mensile
-                <div class="bullet"></div>Fatturazione annuale
+                <div class="bullet-blue"></div><span class="billing-option">Fatturazione mensile</span>
+                <div class="bullet"></div><span class="billing-option">Fatturazione mensile</span>
             </div>
 
             <!--plans grid -->
@@ -81,11 +81,10 @@
                             <div class="plan-card-text">
                                 <h3>Professional</h3>
                                 <h4>€ 12.00</h4>
-                                <span>/mese</span>
-                                
+                                <div class="period">/mese</div>
                                 <ul>
-                                   <li><i class="fa-solid fa-user"></i> 1 utente</li>
-                                   <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li> 
+                                   <li><i class="fa-solid fa-user "></i>1 utente</li>
+                                   <li><i class="fa-solid fa-folder "></i>5 TB di spazio di archiviazione sicuro</li> 
                                    <li><i class="fa-sharp fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li> 
                                 </ul>
                                 <div class="button btn-blue margin-30"><a href="">Prova gratis per 30 giorni</a></div>
@@ -93,8 +92,8 @@
                                 <hr class="grid-hr">
                                 <h5>Punti Salienti del piano</h5>
                                 <ul>
-                                    <li>&check; Invia file fino a 100 GB con Dropbox Transfert</li>
-                                    <li>&check; Cartelle offline su dispositivi mobili</li>
+                                    <li><i class="fa-solid fa-check blue"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
+                                    <li><i class="fa-solid fa-check blue"></i> Cartelle offline su dispositivi mobili</li>
                                 </ul>
                             </div>
                         </div>
@@ -105,8 +104,7 @@
                             <div class="plan-card-text">
                                 <h3>Advanced</h3>
                                 <h4>€ 18.00</h4>
-                                <span>/utente/mese</span>
-                                <br>
+                                <div class="period">/utente/mese</div>
                                 <ul>
                                    <li><i class="fa-solid fa-user"></i> 3 o più utenti</li>
                                    <li><i class="fa-solid fa-people-group"></i> Tutto lo spazio di cui ha bisogno il tuo team</li> 
@@ -117,11 +115,11 @@
                                 <hr class="grid-hr">
                                 <h5>Punti Salienti del piano</h5>
                                 <ul>
-                                    <li>&check; Nessun limite di spazio per i file</li>
-                                    <li>&check; Cartelle offline su dispositivi mobili</li>
-                                    <li>&check; Risparmio del 50% rispetto alle iscrizioni singole</li>
-                                    <li>&check; Possibilità di inserire nuovi membri del team</li>
-                                    <li>&check; Gestione dei permessi in base ai ruoli</li>
+                                    <li><i class="fa-solid fa-check blue"></i> Nessun limite di spazio per i file</li>
+                                    <li><i class="fa-solid fa-check blue"></i> Cartelle offline su dispositivi mobili</li>
+                                    <li><i class="fa-solid fa-check blue"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                    <li><i class="fa-solid fa-check blue"></i> Possibilità di inserire nuovi membri del team</li>
+                                    <li><i class="fa-solid fa-check blue"></i> Gestione dei permessi in base ai ruoli</li>
                                 </ul>
                             </div>
                         </div>
@@ -132,8 +130,7 @@
                             <div class="plan-card-text">
                                 <h3>Enterprise</h3>
                                 <h4>Contattaci</h4>
-                                <span>-</span>
-                                <br>
+                                <div class="period">-</div>
                                 <ul>
                                    <li><i class="fa-solid fa-user"></i> 10 o più utenti</li>
                                    <li><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li> 
@@ -144,25 +141,28 @@
                                 <hr class="grid-hr">
                                 <h5>Punti Salienti del piano</h5>
                                 <ul>
-                                    <li>&check; Cartelle offline su dispositivi mobili</li>
-                                    <li>&check; Servizio assistenza 24/h</li>
-                                    <li>&check; Possibilità di personalizzazione totale</li>
+                                    <li><i class="fa-solid fa-check blue"></i> Cartelle offline su dispositivi mobili</li>
+                                    <li><i class="fa-solid fa-check blue"></i> Servizio assistenza 24/h</li>
+                                    <li><i class="fa-solid fa-check blue"></i> Possibilità di personalizzazione totale</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="plan-col-bottom">
-                        <div class="plan-card">
-                            <div class="plan-card-title"><i class="fa-solid fa-people-group"></i> Team</div>
-                            <div class="plan-card-text">
-                                <h3>Enterprise</h3>
-                                <h4>Contatta l'ufficio vendite per i prezzi</h4>
-                                <div class="button btn-blue"><a href="">Contattaci</a></div>
-                                <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
-                            </div>
+                </div>
+            </div>
+            <div class="plan-col-bottom">
+                <div class="plan-card">
+                    <div class="plan-card-title"><i class="fa-sharp fa-solid fa-building"></i> Team</div>
+                    <div class="plan-card-text flex justify-content-between">
+                        <div class="plan-bottom-left">
+                            <h3>Enterprise</h3>
+                            <h5>Contatta l'ufficio vendite per i prezzi</h5>
+                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                        </div>
+                        <div class="plan-bottom-right">
+                            <div class="button btn-blue padding-20"><a href="">Contatta l'ufficio vendite</a></div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
