@@ -386,6 +386,7 @@ h3 {
 .logos-cont-center {
     background-color: #f5f5f5;
     padding: 50px;
+    overflow-y: auto;
 }
 
 /* logo colors */
@@ -424,7 +425,7 @@ h3 {
 
 /* company promotions */
 .call-to-action {
-    padding: 100px 0;
+    padding: 150px 0;
     margin-bottom: 100px;
     background-color: #b4d0e7;
 }
@@ -434,25 +435,33 @@ h3 {
 }
 
 /* FAQs */
-.section-faqs {
-    
-}
-
 .faqs-container{
     line-height: 100px;
     font-weight: 700;
 }
 
-.arrow-a , .arrow-b , .arrow-c {
+.q-col {
+    border-top: .5px solid grey;
+}
+
+.faqs-container:last-child {
+    border-bottom: .5px solid grey;
+}
+
+.arrow {
     margin-right: 50px;
 }
 
 .lorem-hover {
-    /* font-weight: 400; */
+    font-weight: 400;
     display: none;
 }
 
-.arrow-a , .arrow-b , .arrow-c:hover .lorem-hover {
+.q-col:hover {
+    display: none;
+}
+
+.q-col:hover + .lorem-hover{
     display: block;
 }
 
@@ -460,26 +469,16 @@ h3 {
 footer {
     background-color: black;
     color: white;
-    /* debug */
-    height: 550px;
 }
 
 .footer-container {
     width: 60%;
-    padding: 100px 0;
-    /* debug */
-    height: 500px;
+    padding: 70px 0;
 }
 
 .footer-row {
     width: 100%;
     gap: 20px;
-    /* debug */
-    height: 300px;
-}
-
-.footer-col {
-    /* debug */
     height: 300px;
 }
 
@@ -491,6 +490,7 @@ footer {
 .language-box {
     gap: 10px;
     width: 150px;
-    height: 150px;
+    margin-top: 50px 0;
+    padding: 50px 0;
     border-top: 1px solid white;
 }
